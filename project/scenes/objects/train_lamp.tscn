@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmow1vxhm1hwl"]
+
+[ext_resource type="Texture2D" uid="uid://dchobouekaso8" path="res://assets/img/light_mask/circle.png" id="1_l4ls4"]
+[ext_resource type="Texture2D" uid="uid://dc5iqmn3npvhf" path="res://assets/img/tileset/train.png" id="2_gfy5k"]
+
+[node name="PointLight2D" type="PointLight2D"]
+energy = 0.5
+texture = ExtResource("1_l4ls4")
+offset = Vector2(0, -5)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-16, -17)
+texture = ExtResource("2_gfy5k")
+centered = false
+region_enabled = true
+region_rect = Rect2(224.265, 32, 32.144, 20)

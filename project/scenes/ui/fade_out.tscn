@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://vljcx0yip5qs"]
+
+[ext_resource type="Script" path="res://scenes/ui/fade_out.gd" id="1_200f1"]
+
+[node name="fade_out" type="CanvasLayer"]
+layer = 128
+follow_viewport_enabled = true
+script = ExtResource("1_200f1")
+
+[node name="color_rect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+auto_translate = false
+localize_numeral_system = false
+color = Color(0.0470588, 0.0470588, 0.0470588, 1)
